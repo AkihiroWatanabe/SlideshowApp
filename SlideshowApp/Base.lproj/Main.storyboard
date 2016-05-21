@@ -30,11 +30,6 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="200-FG-H7h"/>
-                                    <barButtonItem title="zoom" id="D4n-wn-MMj">
-                                        <connections>
-                                            <segue destination="2ms-Ca-rFC" kind="show" id="nLs-my-rXn"/>
-                                        </connections>
-                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gxz-0E-78I">
@@ -58,6 +53,7 @@
                     <connections>
                         <outlet property="firstImageView" destination="Gxz-0E-78I" id="gjz-rk-JYW"/>
                         <outlet property="underToolBar" destination="cxq-Gv-HUU" id="y6t-9k-J6E"/>
+                        <segue destination="2ms-Ca-rFC" kind="show" identifier="PushImageView" id="HfJ-rT-jbm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -111,7 +107,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFA-91-GAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="vYp-fk-ouE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="609" y="1134"/>
+            <point key="canvasLocation" x="1067" y="419"/>
         </scene>
     </scenes>
 </document>
